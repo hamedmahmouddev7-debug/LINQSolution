@@ -23,6 +23,13 @@ namespace LINQ
 			//var q4 = ProductList.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
 			//foreach (var p in q4)
 			//	Console.WriteLine(p);
+
+			// [Q5] In stock AND Condiments
+			//Console.WriteLine("--- Q5 ---");
+			//var q5 = ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+			//foreach (var p in q5)
+			//	Console.WriteLine(p);
+
 		}
 	}
 }
