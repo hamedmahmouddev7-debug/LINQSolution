@@ -48,6 +48,18 @@ namespace LINQ
 			//foreach (var s in q7)
 			//	Console.WriteLine(s);
 
+
+			// [Q10] QUERY SYNTAX + compound from: orders in 1997 or later
+		
+			//Console.WriteLine("--- Q10 ---");
+			//var q10 =
+			//	from c in CustomerList
+			//	from o in c.Orders
+			//	where o.OrderDate.Year >= 1997
+			//	select new { c.CustomerID, o.OrderDate };
+			//foreach (var x in q10)
+			//	Console.WriteLine($"{x.CustomerID} - {x.OrderDate:d}");
+
 		}
 	}
 }
