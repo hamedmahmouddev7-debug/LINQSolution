@@ -30,6 +30,20 @@ namespace LINQ
 			//foreach (var p in q5)
 			//	Console.WriteLine(p);
 
+
+			// [Q6] Anonymous type { Name, Price, StockStatus }
+			//Console.WriteLine("--- Q6 ---");
+			//var q6 = ProductList.Select(p => new
+			//{
+			//	Name = p.ProductName,
+			//	Price = p.UnitPrice,
+			//	StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+			//});
+			//foreach (var x in q6)
+			//	Console.WriteLine($"{x.Name} | {x.Price} | {x.StockStatus}");
+
+
+
 		}
 	}
 }
