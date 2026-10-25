@@ -42,7 +42,11 @@ namespace LINQ
 			//foreach (var x in q6)
 			//	Console.WriteLine($"{x.Name} | {x.Price} | {x.StockStatus}");
 
-
+			// [Q7] Name with 1-based position (indexed Select)
+			//Console.WriteLine("--- Q7 ---");
+			//var q7 = ProductList.Select((p, i) => $"{i + 1}. {p.ProductName}");
+			//foreach (var s in q7)
+			//	Console.WriteLine(s);
 
 		}
 	}
