@@ -50,7 +50,7 @@ namespace LINQ
 
 
 			// [Q10] QUERY SYNTAX + compound from: orders in 1997 or later
-		
+
 			//Console.WriteLine("--- Q10 ---");
 			//var q10 =
 			//	from c in CustomerList
@@ -59,6 +59,13 @@ namespace LINQ
 			//	select new { c.CustomerID, o.OrderDate };
 			//foreach (var x in q10)
 			//	Console.WriteLine($"{x.CustomerID} - {x.OrderDate:d}");
+
+
+			// [Q11] Position number alongside ProductName
+			//Console.WriteLine("--- Q11 ---");
+			//var q11 = ProductList.Select((p, i) => new { Position = i + 1, p.ProductName });
+			//foreach (var x in q11)
+			//	Console.WriteLine($"{x.Position} - {x.ProductName}");
 
 		}
 	}
