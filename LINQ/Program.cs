@@ -12,7 +12,13 @@ namespace LINQ
 			//foreach (var p in q1)
 			//	Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
 
-			
+			// [A1-Q2] Only product names
+			//Console.WriteLine("--- Q2 ---");
+			//var q2 = ProductList.Select(p => p.ProductName);
+			//foreach (var n in q2)
+			//	Console.WriteLine(n);
+
+
 		}
 	}
 }
